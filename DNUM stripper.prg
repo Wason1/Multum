@@ -1,7 +1,6 @@
 ; DNUM update (non-domain-specific)	"
 ; replace "sufentanil" with name of the item you wish to alter
-
-
+; this will disassociate the DNUM with the item, sometimes referring to de-multimising
 
 update into order_catalog oc
 set oc.cki = " "
